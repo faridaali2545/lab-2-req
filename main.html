@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>User Information</title>
+        <style>
+            h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:#AB886D;
+}
+body
+{
+    background-color:#D6C0B3;
+    position: absolute;
+    top:10%;
+    width:100%;
+    text-align:center;
+}
+form
+{
+    font: size 16px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+
+        </style>
+        
+    </head>
+    <body>
+        <h1>User information form</h1>
+        <form action = "/submit" method="post" onsubmit="alert('form filled succssfully!')">
+            <label for = "name">Name</label>
+            <input type = "text" id = "name" name = "name"><br><br>
+            <label for ="age">Age</label>
+            <input type = "number" id = "age" name = "age"><br><br>
+            <label for ="email">Email</label>
+            <input type = "email" id = "email" name = "email"><br><br>
+            <label for = "password">Password</label>
+            <input type = "password" id = "password" name ="password"><br><br>
+            <input type = "submit" id = "submit" value="submit">
+        </form>
+    </body>
+</html>

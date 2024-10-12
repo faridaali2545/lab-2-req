@@ -1,0 +1,7 @@
+my_flask_app/
+├── app.py
+├── templates/
+│   ├── main.html
+│   └── display.html
+├── static/
+│   └── maincss.css
